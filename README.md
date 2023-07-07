@@ -22,7 +22,7 @@ Button C Turns off the display
 ## SerialSniffer
 This is used to "snoop" on UART serial lines
 (Note: The default baud rate for the passthough is 9600, however this can be changed by modifing line 27 in the program: "uart1.init(YOUR_BAUD, bits=8, parity=None, stop=1) "YOUR_BAUD" should be your passthrough baud rate.)
-The display shows the baud rate of both the passthrough and USB-C interface
+The display shows the default baud rate of both the passthrough and USB-C interface
 The device should be connected through PortA1 and PortA2
 This program also supports ESPNow AP mode with the following characteristics: 
 AP Name: SerialSniffer
