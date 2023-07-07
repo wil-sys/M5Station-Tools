@@ -11,15 +11,15 @@ To load theese on to your M5Station you must 1: put the device in UIFlow USB Mod
 6: Upload the .py files to the "apps" folder on the M5Station
 7: Reboot the M5Sation into App mode, and select the app you want to run using the buttons
 
-## How to use each program
-# M5PSU
+# How to use each program
+## M5PSU
 This is a piece of code that lets youre device act like a USB powerbank using the top USB-A Port.
 The screen will show the state of charing (True or False) and the percentage
 Button A Shows the screen if it has been turned off with Button C
 Button B Enables or disables the USB-A power output
 Button C Turns off the display
 
-# SerialSniffer
+## SerialSniffer
 This is used to "snoop" on UART serial lines
 (Note: The default baud rate for the passthough is 9600, however this can be changed by modifing line 27 in the program: "uart1.init(YOUR_BAUD, bits=8, parity=None, stop=1) "YOUR_BAUD" should be your passthrough baud rate.)
 The display shows the baud rate of both the passthrough and USB-C interface
