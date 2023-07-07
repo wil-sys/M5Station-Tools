@@ -1,9 +1,9 @@
 # M5Station-Tools
 A small set of python programs that show the M5Station's full potential.
 
-# How to run theese programs on your device
-Theese are meant to run on an M5Station Device, under a UIFlow 1.12.0 or higher enviroment.
-To load theese on to your M5Station you must 1: put the device in UIFlow USB Mode
+# How to run these programs on your device
+These are meant to run on an M5Station Device, under a UIFlow 1.12.0 or higher enviroment.
+To load these on to your M5Station you must 1: put the device in UIFlow USB Mode
 2: Download the latest version of Visual Studio Code, which can be found here https://code.visualstudio.com/Download
 3: Install the M5Stack device addon in Visual Studio, and connect your M5Station to your computer
 4: Use a program like device manager (Only on windows) or M5Burner to find your M5Station's serial port (It will look like COMxx) (Note: The serial port will have "FTDI" next to them in VSCode)
@@ -29,4 +29,4 @@ AP Name: SerialSniffer
 Channel: 11
 Master Key: M5StationSniffer[Version Number] 
 
-Theese programs are not developed by or associated with M5Stack
+These programs are not developed by or associated with M5Stack
